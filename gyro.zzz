@@ -1,0 +1,13 @@
+pkgs:
+  imap-parser:
+    version: 0.0.0
+    license: MIT
+    source_url: "https://github.com/devins2518/zig-imap-parser"
+    root: src/main.zig
+    files:
+      README.md
+      LICENSE
+deps:
+  parzer:
+    local: ../parzer
+    root: src/main.zig
